@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,15 +8,16 @@
     android:orientation="vertical"
     >
 
-    <!-- solo boton -->
-    <Button
+    <!--
+    solo boton
+    <Butto
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hola mundo"
         android:theme="@style/RaiseButtonDark"
         />
 
-    <!-- solo boton imagen -->
+    solo boton imagen
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,8 +25,7 @@
         android:theme="@style/RaiseButtonDark"
         />
 
-    <!-- boton con imagen -->
-
+    boton con imagen
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,4 +35,15 @@
         android:drawablePadding="5dp"
         />
 
-</LinearLayout>
+    -->
+
+    <!-- boton floar-->
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/icons8_plus_96"
+        android:layout_margin="16dp"
+        />
+
+</android.support.design.widget.CoordinatorLayout>
